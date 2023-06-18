@@ -10,6 +10,9 @@ import ReducerSample from './components/ReducerSample'
 import Parent from './components/Parent'
 import { Clock } from './components/Clock'
 import UseContextSample from './components/UseContextSample'
+import ImageUploader from './components/UseRefSample'
+import UseImperativeHandle from './components/UseImperativeHandle'
+import Input from './components/Input'
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 root.render(
@@ -25,6 +28,9 @@ root.render(
     <Parent />
     <Clock />
     <UseContextSample />
+    <ImageUploader />
+    <UseImperativeHandle />
+    <Input />
   </Fragment>
   // </React.StrictMode>
 )
